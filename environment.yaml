@@ -1,0 +1,13 @@
+name: RGBD-extraction-py310
+channels:
+  - defaults
+dependencies:
+  - python=3.10.8
+  - pip=22.3.1
+  - numpy=1.23.4
+  - pip:
+    - opencv-python==4.6.0.66
+    - PyYAML==6.0
+    # - rosbags==0.9.15
+    - cvbridge3==1.1
+    - bagpy==0.5
