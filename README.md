@@ -12,3 +12,13 @@ You can see and delete the created environment by using
     conda env list
     conda env remove --name RGBD-extraction-py310
 
+
+
+
+
+
+## Further information
+If data is *NOT* captured from the ROS terminal I can be worth it to have a look into "read_bag_example.py". This seems to be a convenient way of working with data from the Intel RealSense.
+
+In this case valuable insights and approaches could potentially be found here: [https://github.com/IntelRealSense/librealsense/blob/jupyter/notebooks/distance_to_object.ipynb]  
+
