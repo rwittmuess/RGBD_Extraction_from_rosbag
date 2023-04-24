@@ -1,20 +1,26 @@
 # RGBD_Extraction_from_rosbag
 Convenient way of extracting images and sensor data from ROS bag files to python.
 
+## Setup
 To create the envrionment used for this code, navigate to the directory of the repository and run the following commands.
 
     conda env create -f environment.yaml
     conda activate RGBD-extraction-py310
-
 
 You can see and delete the created environment by using
 
     conda env list
     conda env remove --name RGBD-extraction-py310
 
+## Use
+The jupyter notebook "how to use" in an interactive way how to use the functions provided by the repository. 
 
 
-
+## Still Work In Progress:
+* OPtimize Runtime
+* Simplify use
+* Comment
+* ...
 
 
 ## Further information
